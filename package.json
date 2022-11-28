@@ -1,0 +1,13 @@
+{
+  "name": "tailwind-practice",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "author": "sajib",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/index.css -o ./output/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
